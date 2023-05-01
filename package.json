@@ -1,0 +1,23 @@
+{
+  "name": "cellar-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losetheattitude/cellar-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/losetheattitude/cellar-gateway/issues"
+  },
+  "homepage": "https://github.com/losetheattitude/cellar-gateway#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
