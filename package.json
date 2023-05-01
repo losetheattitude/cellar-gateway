@@ -17,6 +17,9 @@
     "url": "https://github.com/losetheattitude/cellar-gateway/issues"
   },
   "homepage": "https://github.com/losetheattitude/cellar-gateway#readme",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "express": "^4.18.2"
   }
