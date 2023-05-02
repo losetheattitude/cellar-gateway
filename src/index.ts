@@ -6,6 +6,10 @@ app.get("/", (req:Request, res:Response):void => {
     res.send("Hello Typescript with Node.js!");
 });
 
+app.get("/test", (req:Request, res:Response):void => {
+    res.send("Testing");
+});
+
 app.listen(PORT, ():void => {
     console.log(`Server Running here 👉 https://localhost:${PORT}`);
 });
