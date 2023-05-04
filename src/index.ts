@@ -6,6 +6,10 @@ app.get("/", (req: Request, res: Response): void => {
   res.send("Hello Typescript with Node.js!");
 });
 
+app.get("/test", (req: Request, res: Response): void => {
+  res.send("Test!");
+});
+
 app.listen(PORT, (): void => {
   console.log(`Server Running ashere 👉 https://localhost:${PORT}`);
 });
